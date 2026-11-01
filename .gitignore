@@ -1,0 +1,42 @@
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# SSH private keys and credentials
+*.pem
+*.key
+id_rsa
+id_ed25519
+.aws/
+
+# Ansible
+*.retry
+vault-password-file
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
